@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200;300;600&family=Yanone+Kaffeesatz:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200;300;600&family=Yanone+Kaffeesatz:wght@200;300&display=swap');
+.footer .container{
+    width: 100%;
+    height: 550px;
+       background-image: url(/img/footer.jpg);
+ display: flex;
+  
+}
+
+.container{
+  border: 2px solid black;
+  width: 100%;
+
+  
+}
+.col1{
+    border: 2px solid yellow;
+width:85%;
+   height: 550px;
+   margin-left: 50px;
+   padding-left: 120px;
+  
+    
+}
+.col2{
+    border: 2px solid rgb(0, 255, 195);
+    width:40%;
+   height: 550px;
+   margin-right: 100px;
+}
+
+#heading{
+    display: block;
+    margin-top: 100px;
+}
+.col1 #para  #heading h3{
+    /* display:flexbox; */
+   /* background-color: brown; */
+    color: #474f51;
+    font-size: 20pt;
+    font-family: 'Yanone Kaffeesatz';
+    line-height: 1.85em;
+    font-weight: 400;
+    margin-top: 70px;
+    margin-left: 40px;
+    
+    
+}
+.row{
+display: flex;
+margin-top: -100px;
+
+}
+
+.col1 #para .row .col1list{
+  
+      /* background-color: antiquewhite; */
+      
+}
+
+.col1 #para .col1list li{
+    list-style:none;
+}
+.col1 #para .col1list li a{
+    text-decoration: none;
+}
+.col1 #para .col1list li a{
+  display: block;
+text-decoration:underline;
+     color: #474f51;
+    font-size: 14.5pt;
+    font-family: 'Yanone Kaffeesatz';
+    line-height: 1.85em;
+    font-weight: 300;
+}
+.col1 #para .row .col1list li a:hover {
+      cursor: pointer;
+    text-decoration: none;
+}
+.col1list .col1listElement{
+    text-decoration:underline;
+    padding:2.5em;
+        color: #474f51;
+    font-size: 13.5pt;
+    font-family: 'Yanone Kaffeesatz';
+    line-height: 1.85em;
+    font-weight: 300;
+}
+.container .row1 .col2 {
+      width: 35%;
+    height: 350;
+    border: 2px solid green;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col2 .para h2{
+  display: block;
+    
+     color: #474f51;
+
+    font-size: 20pt;
+    font-family: 'Yanone Kaffeesatz';
+    line-height: 1.8em;
+    font-weight: 300;
+} 
+.col2 .para {
+  display: block;
+    
+     color: #474f51;
+    margin: 80px;
+    font-size: 13.5pt;
+    font-family: 'Yanone Kaffeesatz';
+    line-height: 1.8em;
+    font-weight: 300;
+} 
+
+
+
